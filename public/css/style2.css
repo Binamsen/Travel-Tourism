@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.site-header .col-md-4{
+    padding-left: 0px;
+}
+.site-header .col-md-8{
+    margin-top: 45px;
+    padding: 0px;
+}
+.site-header .col-md-8 h1{
+    color:#206ea1;
+    
+}
+.site-header .container-fluid .col-md-4 img{
+    width: 400px;
+    
+}
+
+#myCarousel{
+	
+}
+.site-nav{
+    background-color:#206ea1;
+}
+nav{
+	height: auto;
+	width: 100%;
+}
+.navbar{
+	position:static;
+	margin-bottom: 0px;
+	border: 0px;
+}
+/*.navbar-default{
+	background-color: blue;
+}*/
+ul li{
+	padding-left: 10px;
+}
+ul li a{
+	font-size: 18px;
+	color: white;
+}
+/*nav{
+	height: auto;
+	width: 100%;
+        
+}
+.nav{
+	float:right;
+}
+ .navbar{
+	
+	background:#206ea1;
+        
+}
+
+.navbar-header h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 36px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+	color:white;
+}
+.navbar-header h4{
+	margin: 0px;
+        font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+        color: white;
+}
+nav .container-fluid .nav li a{
+	font-size: 18px;
+	color: white;
+	line-height: 25px;
+	
+}
+
+.nav  li a:hover {
+    background-color:black;
+        color: blue;
+	 }
+ */
+
+
+.site-main h3{
+	font-size: 60px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+}
+/*for carousel*/
+.carousel-inner .item
+{
+	
+	height:500px;
+        width: 100%;
+}
+.item img{
+	 position: absolute;
+         height: 500px;
+         width: 100%;
+}
+.carousel-caption h3{
+	font-size: 45px;
+	color:white;
+	text-align: center;}
+
+	/*end of carousel*/
+
+/*start of trip*/
+.site-aside{
+	height: auto;
+	width: 100%;
+	
+	
+}
+.site-aside .col-md-12{
+	margin-bottom: 8px;
+        padding: 0px;
+}
+
+aside .col-md-12 h1{
+	font-weight: bold;
+	color: #206ea1;
+}
+aside .col-md-3{
+    margin-left: 80px;
+}
+aside .col-md-3 label{
+	font-size: 18px;
+}
+.col-md-2{
+	margin-top: 24px;
+        margin-left: 50px;
+}
+
+.col-md-4 p{
+    font-size: 20px;
+    color: black;
+    padding-top: 5px;
+}
+/*end of trip*/
+
+/*start of services*/
+.parallex{
+	background: url(../../public/img/pictures/himal.png) fixed 100%;
+	clear: both;
+	margin-top: 10px;
+	
+}
+.parallex h3{
+	color:white;
+	text-align:center;
+	font-size: 30px;
+}
+.parallex-inner{
+	padding-top: 2%;
+	padding-bottom: 10%;
+}
+
+#tf-services{
+	padding: 80px 0;
+}
+.col-md-3.col-sm-6.service h4{
+	color:white;
+}
+
+.space{
+	margin-top: 40px;
+	
+}
+#tf-services p {
+	color:white;
+}
+
+
+#tf-services i.fa {
+	font-size: 40px;
+	border: 4px solid white;
+	width: 100px;
+	height: 100px;
+	padding: 27px 25px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	transition: all 0.5s;
+	color:white;
+}
+
+#tf-services i.fa.fa-mobile{
+	font-size: 50px;
+	padding: 20px 25px;
+}
+
+#tf-services .service:hover>i.fa{
+	background:#A5F7FB;
+	color: white;
+}
+.row h3{
+	font-size: 40px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+  font-weight: 700;
+}
+.col-sm-4 p {
+	text-align: center; 
+}
+.icon{
+	color:white;
+	font-size: 90px;
+}
+/*end of services */
+
+/*start of about*/
+.section{
+	background: white 100%;
+        height: auto;
+        width: 100%;
+}
+.section .col-md-12 h1
+{
+	color:#206ea1;
+	font-weight: bold;
+	font-size: 33px;
+}
+.section .col-md-6 p{
+    font-size: 18px;
+}
+.section-inner{
+	padding-top: 2%;
+	padding-bottom: 10%;
+}
+.section .col-md-4{
+ margin-left: 450px;
+ margin-top: 15px;
+}
+.section .panel-body{
+    background-color: #206ea1;
+}
+.section .panel-body h2{
+    color: white;
+    margin: 0px;
+}
+.section .panel-body a{
+    text-decoration: none;
+}
+/*end of about*/
+/*start of top tours*/
+.site-main{
+    clear: both;
+    height: auto;
+    width: 100%
+}
+.site-main hr{
+    display: block;
+    border-width: 4px;
+    color: black;
+}
+.site-main .col-md-12{
+    margin-top: 20px;
+}
+.site-main .col-md-12 h1{
+    color:#206ea1 ;
+    font-weight: bold;
+}
+.site-main.container-fluid {
+  position: relative;
+  width: 100%;
+}
+
+.site-main .col-md-4 img {
+  
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+.site-main .container-fluid .overlay-holder:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+/*start of contact*/
+
+.site-footer{
+    height: 300px;
+    width: 100%;
+    background-color:#206ea1;
+    clear: both;
+    margin-top: 10px;
+}
+
+.site-footer .col-md-12 h2{
+    font-weight: bold;
+    color: white;
+}
+.site-footer .col-md-12 .fa{
+    font-size: 40px;
+	border: 2px solid white;
+	width: 100px;
+	height: 100px;
+	padding: 25px 25px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	transition: all 0.5s;
+	color:white;
+}
+
+
+.site-footer a:hover>.fa{
+	background-color:black;
+	color: white;
+}
+
+.site-footer .col-md-12 h2{
+    color: white;
+    font-weight: bold;
+}
+.site-footer .col-md-12 p{
+    font-size: 18px;
+    color: white;
+}
+.site-buttom{
+    height: auto;
+    width: 100%;
+    background-color:#206ea1;
+    clear: both;
+}
+
+.site-buttom .col-md-12 p{
+    font-size: 19px;
+    color: white;
+}
+.site-main table{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.panel-body img{
+    height: 200px;
+    width: 100%;
+}
+.panel-footer p{
+    font-size: 18px;
+    color: black;
+    
+}
+.panel-heading h2{
+    color: #206ea1;
+}
+.site-main .col-md-12 h3{
+    color: #206ea1;
+}
+.site-main .table-bordered p{
+    font-size: 20px;
+}
+.panel-heading .icon{
+    padding-left: 110px;
+}

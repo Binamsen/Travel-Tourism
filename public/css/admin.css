@@ -1,0 +1,94 @@
+*{margin: 0px; padding: 0px;}
+body{background:#31708f;}
+.site-header{background:#31708f;}
+.site-header.well{border-radius: 0px;}
+.site-name{display: inline-block; color: #d9edf7;}
+.text-light-green{color: #d9edf7;}
+.text-light-green:hover{color: #d9edf7 !important;}
+.text-light-green:visited{color: #d9edf7 !important;}
+.user{list-style:none; margin:0px; padding:15px 10px;}
+.user li{position:relative;}
+.user li a{color:#FFF; padding:10px 5px;}
+.user li  {color:#fff;}
+.user ul{
+	background:#31708f;
+	width:120px;
+	margin:0px;
+	padding:5px;
+	list-style:none;
+	display:none;
+	position:absolute;
+	z-index:10;
+	right:-10px;
+}
+.user ul li{text-align:right;}
+.user li:hover ul{
+	display:block;
+}
+.user-login{ margin-top:50%; color:#CECECE;}
+.user-login .panel{
+	background-color:rgba(3, 43, 49, 0.69);
+}
+.user-login .panel .form-control {
+    color: #AADBC3;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+.user-login .text-danger{ color:#fc7c79;}
+.user-login .forget{
+	display:block;
+	padding:5px 0px;
+	color:#CECECE;
+}
+.table-posts{
+    width: 100%;
+}
+.table-posts th,td{padding: 2px 5px;}
+.post-content{
+    min-height: 200px;
+}
+.pagination-group{text-align: center;}
+
+
+   
+
+.site-header a{
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+        }
+.site-header a:hover{
+            color: white;
+        }
+        .site-header .col-sm-2{
+            margin-top: 10px;
+        }
+.col-md-1{
+            margin-top: 12px;
+        }
+.col-md-1 .icon{
+            color: white;
+            font-size: 20px;
+        }
+        .site-header .col-md-8 .icon{
+            font-size: 20px;
+        }
+        
+        header .user img{
+            height: 30px;
+            width: 30px;
+        }        
+.site-main a{
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .site-main .col-md-2{
+       
+        margin-top: 20px;
+    }
+    .modal-body{
+        overflow: scroll;
+    }
+    .site-main .container-fluid{
+        padding: 0px;
+    }
+    

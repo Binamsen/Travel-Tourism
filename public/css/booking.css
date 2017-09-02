@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.site-header .col-md-4{
+    padding-left: 0px;
+}
+.site-header .col-md-8{
+    margin-top: 45px;
+    padding: 0px;
+}
+.site-header .col-md-8 h1{
+    color:#206ea1;
+    
+}
+.site-header .container-fluid .col-md-4 img{
+    width: 400px;
+    
+}
+
+.site-nav{
+    background-color:#206ea1;
+}
+nav{
+	height: auto;
+	width: 100%;
+}
+.navbar{
+	position:static;
+	margin-bottom: 0px;
+	border: 0px;
+}
+/*.navbar-default{
+	background-color: blue;
+}*/
+ul li{
+	padding-left: 10px;
+}
+ul li a{
+	font-size: 18px;
+	color: white;
+}
+
+
+.site-section{
+    height:auto;
+    width: 100%;
+    
+}
+
+.site-footer{
+    height: 300px;
+    width: 100%;
+    background-color:#206ea1;
+    clear: both;
+}
+
+.site-footer .col-md-12 h2{
+    font-weight: bold;
+    color: white;
+}
+.site-footer .col-md-12 .fa{
+    font-size: 40px;
+	border: 2px solid white;
+	width: 100px;
+	height: 100px;
+	padding: 25px 25px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	transition: all 0.5s;
+	color:white;
+}
+
+
+.site-footer a:hover>.fa{
+	background-color:black;
+	color: white;
+}
+
+.site-footer .col-md-12 h2{
+    color: white;
+    font-weight: bold;
+}
+.site-footer .col-md-12 p{
+    font-size: 18px;
+    color: white;
+}
+.site-buttom{
+    height: auto;
+    width: 100%;
+    background-color:#206ea1;
+    clear: both;
+}
+
+.site-buttom .col-md-12 p{
+    font-size: 19px;
+    color: white;
+}
+
